@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 03/04</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!--Parte 1-->
+    <div class="container">
+        <div class="row mx-auto m-5">
+            <div class="col-6">
+                <div class="card text-center">
+                    <h4><b>Digite o Nome e Idade</b></h4>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row mx-auto m-5">
+                    <div class="col-6">
+                        <input type="text" class="form-control" placeholder="Nome" id="nameInput">
+                    </div>
+                </div>
+                <div class="row mx-auto m-5">
+                    <div class="col-6">
+                        <input type="text" class="form-control" placeholder="Idade" id="ageInput">
+                    </div>
+                </div>
+                <div class="card-body text-end">
+                    <div class="row text-end">
+                        <div class="col-6">
+                            <button class="btn btn-primary" id="addAction">Adicionar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fim Parte 1-->
+
+        <hr class="border border-primary border-3 opacity-75">
+
+        <!--Parte 2-->
+        <div class="container">
+            <div class="row mx-auto m-5">
+                <div class="col-6">
+                    <div class="card text-center">
+                        <h4><b>Procurar e Remover</b></h4>
+                    </div>
+                </div>
+                <div class="row mx-auto m-5">
+                    <div class="col-3">
+                        <div class="card-body center-items">
+                            <input type="text" class="form-control" placeholder="Nome ou Índice" id="searchInput">
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <button class="btn btn-primary" id="verifyAction">Verificar</button>
+                    </div>
+                    <div class="col-auto">
+                        <button class="btn btn-primary" id="removeAction">Remover</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fim Parte 2-->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu"
+            crossorigin="anonymous"></script>
+        <script src="./script.js"></script>
+</body>
+
+</html>

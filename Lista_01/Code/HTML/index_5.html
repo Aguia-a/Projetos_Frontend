@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body data-bs-theme="light" id="mainBody">
+
+    <!--Navbar-->
+    <div class="container-fluid mx-auto">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid bg-secondary rounded-4">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white ms-3" href="index.html">Página 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white ms-3" href="index_2.html">Página 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white ms-3" href="index_3.html">Página 3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white ms-3" href="index_4.html">Página 4</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-dark bg-warning rounded-4 ms-3" href="index_5.html"><b>Página 5</b></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--Fim Navbar-->
+
+            <div class="row text-center mt-3">
+                <div class="col">
+                    <button class="btn btn-primary" id="btn24">Exercício 24</button>
+                    <button class="btn btn-primary" id="btn25">Exercício 25</button>
+                    <button class="btn btn-primary" id="btn26">Exercício 26</button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-primary" id="btn27">Exercício 27</button>
+                    <button class="btn btn-primary" id="btn28">Exercício 28</button>
+                    <button class="btn btn-primary" id="btn29">Exercício 29</button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-primary" id="btn30">Exercício 30</button>
+                    <button class="btn btn-primary" id="btn31">Exercício 31</button>
+                    <button class="btn btn-primary" id="btn32">Exercício 32</button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-primary" id="btn33">Exercício 33</button>
+                    <button class="btn btn-primary" id="btn34">Exercício 34</button>
+                    <button class="btn btn-primary" id="btn35">Exercício 35</button>
+                </div>
+            </div>
+            <div class="row text-center mt-3">
+                <div class="col">
+                    <button class="btn btn-secondary" id="btn36">Exercício 36</button>
+                    <button class="btn btn-secondary" id="btn37">Exercício 37</button>
+                    <button class="btn btn-secondary" id="btn38">Exercício 38</button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-secondary" id="btn39">Exercício 39</button>
+                    <button class="btn btn-secondary" id="btn40">Exercício 40</button>
+                    <button class="btn btn-secondary" id="btn41">Exercício 41</button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-secondary" id="btn42">Exercício 42</button>
+                    <button class="btn btn-secondary" id="btn43">Exercício 43</button>
+                    <button class="btn btn-secondary" id="btn44">Exercício 44</button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-secondary" id="btn45">Exercício 45</button>
+                    <button class="btn btn-secondary" id="btn46">Exercício 46</button>
+                    <button class="btn btn-secondary" id="btn47">Exercício 47</button>
+                </div>
+            </div>
+            <div class="row text-center mt-3">
+                <div class="col">
+                    <button class="btn bg-dark-subtle align-start" id="btn48">Exercício 48/49</button>
+                    <button class="btn bg-dark-subtle" id="btn50">Exercício 50</button>
+                    <button class="btn bg-dark-subtle" id="btn51">Exercício 51</button>
+                </div>
+                <div class="col">
+                    <button class="btn bg-dark-subtle" id="btn52">Exercício 52</button>
+                    <button class="btn bg-dark-subtle" onclick="exibitAlert()">Exercício 53</button>
+                    <button class="btn bg-dark-subtle" id="btn54">Exercício 54</button>
+                </div>
+                <div class="col">
+                    <button class="btn bg-dark-subtle" id="btn55">Exercício 55</button>
+                    <button class="btn bg-dark-subtle" id="btn56">Exercício 56</button>
+                    <button class="btn bg-dark-subtle" id="btn57">Exercício 57</button>
+                </div>
+                <div class="col">
+                    <button class="btn bg-dark-subtle" id="btn58">Exercício 58</button>
+                    <button class="btn bg-dark-subtle" id="btn60">Exercício 60</button>
+                </div>
+            </div>
+            <div class="row text-center mt-3" id="trocaDiv">
+                <p class="mt-5" id="trocaEu">Hola</p>
+            </div>
+            <div class="row mt-5 mx-auto">
+                <div class="col-6 text-center">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Nome (Clique em Exercício 56 para Utilizar)</label>
+                            <input type="text" id="nameInput" class="form-control border-3 border-primary"
+                                placeholder="Digite aqui seu nome">
+                        </div>
+                        <div class="mb-3">
+                            <p class="form-control border-3 border-primary text-secondary py-3" id="nameOutput"></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-6 text-center my-auto">
+                    <div class="border border-3 rounded-3 border-warning py-4 mx-5">
+                        <b><span id="counter"></span></b>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 mx-auto text-center">
+                <p style="display: block;" id="show"><b>Oooooiii</b></p>
+            </div>
+            <div class="row mt-5 mx-auto text-center">
+                <img id="changeIMG" src="../../Images/bonnie_away.jpg" onmouseover="changeImage()"
+                    style="max-width: 500px;">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="../JS/script_5.js"></script>
+</body>
+
+</html>
